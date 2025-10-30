@@ -25,7 +25,7 @@ def on_message(client, userdata, msg):
 
     try:
         data = json.loads(raw_payload)
-
+        print("받아짐")
         # 수신된 JSON 데이터에 있는 모든 항목을 순회하며 아두이노로 명령 전송
         for ingredient, value in data.items():
             command_prefix = None
