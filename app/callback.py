@@ -37,9 +37,9 @@ def on_message(client, userdata, msg):
                 command_prefix = "W"
             elif ingredient == "coffee":
                 command_prefix = "C"
-            elif ingredient == "icetea":
+            elif ingredient == "iced_tea":
                 command_prefix = "I"
-            elif ingredient == "greentea":
+            elif ingredient == "green_tea":
                 command_prefix = "G"
 
             if command_prefix:
